@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
     homes_about_path
   end
 
+
   protected
 
   def configure_permitted_parameters
