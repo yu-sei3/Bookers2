@@ -12,7 +12,7 @@
             <tr>
               <td>
                 <%= image_tag @user.get_profile_image("40x40") %><br />
-                <%= link_to @user.name, user_path %>
+                <%= link_to @user.name, user_path(@user.id) %>
               </td>
               <td><%= link_to @book.title, book_path(@book) %></td>
               <td><%= @book.body %></td>
